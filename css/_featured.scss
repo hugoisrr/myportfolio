@@ -1,0 +1,38 @@
+.featured {
+    position: relative;
+}
+.featured::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgba($third-color, .3);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $primary-color;
+    letter-spacing: .2em;
+    font-size: .95em;
+}
+
+.featured-title {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: -.4em;
+    display: block;
+}
+
+.featured-desc {
+    color: #3b3b3b;
+    margin-bottom: 3em;
+    font-size: 1.0em;
+    line-height: 1.8em;
+    font-weight: 500;
+}
