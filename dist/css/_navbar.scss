@@ -1,0 +1,27 @@
+.nav-container {
+    background: $primary-color;
+
+    a {
+        color: $fourth-color;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo {
+        color: $third-color;
+        font-weight: bold;
+    }
+
+    ul {
+        display: flex;
+
+        a {
+            display: block;
+            padding: 0 1em;
+        }
+    }
+}
